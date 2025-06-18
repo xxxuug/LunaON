@@ -9,9 +9,9 @@ public class SpawningPool : Singleton<SpawningPool>
 
     private int _maxSpawnCount = 12; // 최대 스폰 개수
 
-    // 총 슬라임 리스트
+    // 총 선인장 리스트
     private List<CactusController> _spawnCactus = new List<CactusController>();
-    // 죽은 슬라임 리스트
+    // 죽은 선인장 리스트
     private List<CactusController> _deadCactus = new List<CactusController>();
     // 총 머쉬룸 리스트
     private List<MushroomController> _spawnMushroom = new List<MushroomController>();
